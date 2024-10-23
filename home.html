@@ -10,9 +10,32 @@
     <script src='bootstrap/bootstrap.js'></script>
 </head>
 
+<style>
+    .border-none{
+        border: none;
+    }
+
+    .border-bottom-gray{
+        border-bottom: 1px solid #dfe1e3;
+    }
+
+    .h-6{height: 6vh;}
+
+    .h-10{height: 10vh;}
+
+    .h-20{height: 20vh;}
+
+    .h-30{height: 30vh;}
+
+    .h-40{height: 40vh;}
+
+</style>
+
 <body>
-    <div class="container-fluid bg-light">
-        <div class="row d-flex align-items-center">
+    <div class="container-fluid">
+
+        <!-- Header -->
+        <div class="row d-flex align-items-center bg-light">
             <div class="col-2 d-flex justify-content-start">
                 <a class="btn" style="background-color: #b8bcbf; color: #fff;" data-bs-toggle="collapse"
                     href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -29,18 +52,28 @@
             <div class="col-2 d-flex justify-content-center">
                 <div class="rounded-circle border d-flex align-items-center justify-content-center"
                     style="width: 40px; height: 40px;">
-                    <img src="resouces/b09befaf7ddd0d10dd549b999c17760f.svg" alt="Icono perfil" height="20"
+                    <img src="resouces/perfil.svg" alt="Icono perfil" height="20"
                         class="img-fluid" />
                 </div>
             </div>
             <div class="col-2 d-flex justify-content-center">
                 <div class="rounded-circle border d-flex align-items-center justify-content-center"
                     style="width: 40px; height: 40px;">
-                    <img src="resouces/9cee5afc9978d446057263007a51b735.svg" alt="Carrito" height="20"
+                    <img src="resouces/carrito.svg" alt="Carrito" height="20"
                         class="img-fluid" />
                 </div>
             </div>
         </div>
+
+        <!-- Navegador (Search) -->
+        <div class="row">
+            <div class="d-flex justify-content-start align-items-center border-bottom-gray h-6">
+                <button class="btn"><img src="./resouces/lupa.svg" alt=""></button>
+                <input class="border-none" type="text" placeholder="Search">
+            </div>
+        </div>
+
+
     </div>
         <!-- Footer -->
     <footer class="text-center text-lg-start bg-body-tertiary text-muted" style="background-color: black;">
