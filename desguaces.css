@@ -1,0 +1,36 @@
+.color-blue{
+    color: #3a3cc2;
+}
+
+.border-none{
+    border: none;
+}
+
+.border-bottom-gray{
+    border-bottom: 1px solid #dfe1e3;
+}
+
+.h-6{height: 6vh;}
+
+.h-10{height: 10vh;}
+
+.h-20{height: 20vh;}
+
+.h-30{height: 30vh;}
+
+.h-40{height: 40vh;}
+
+.title{
+    font-size: 20px;
+    margin: 0.5em;
+}
+
+.f-size-12{
+    font-size: 12px;
+}
+
+.video{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
