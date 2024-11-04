@@ -29,8 +29,6 @@
     font-size: 12px;
 }
 
-.video{
-    position: absolute;
-    left: 0;
-    width: 100%;
+.mb-50{
+    margin-bottom: 175px;
 }
