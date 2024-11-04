@@ -16,33 +16,39 @@
 
         <!-- Header -->
         <div class="row d-flex align-items-center bg-light" id="header">
-            <div class="col-2 d-flex justify-content-start">
+
+            <!-- Botón de menú -->
+            <div class="col-2 mt-2 mb-2">
                 <a class="btn" style="background-color: #b8bcbf; color: #fff;" data-bs-toggle="collapse"
                     href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
-                        class="bi bi-three-dots" viewBox="0 0 14 14">
-                        <path
-                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
+                    <svg class="mb-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
+                        <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5"/>
                     </svg>
                 </a>
             </div>
-            <div class="col-6 d-flex justify-content-end">
-                <h1 class="fs-6 mb-0">Desguaces Andorra</h1>
+
+            <!-- Título -->
+            <div class="col-7 d-flex align-items-center">
+                <h1 class="f-size-12">DESGUACES ANDORRA</h1>
             </div>
-            <div class="col-2 d-flex">
-                <div class="rounded-circle border d-flex align-items-center justify-content-center"
-                    style="width: 40px; height: 40px;">
-                    <img src="resouces/perfil.svg" alt="Icono perfil" height="20" class="img-fluid" />
+
+            <!-- Botón cuenta -->
+            <div class="col-1">
+                <div class="rounded-circle border m-2">
+                    <img class="w-100 h-100" src="resouces/perfil.svg" alt="Icono perfil" class="img-fluid" />
                 </div>
             </div>
-            <div class="col-2 d-flex">
-                <div class="rounded-circle border d-flex align-items-center justify-content-center"
-                    style="width: 40px; height: 40px;">
-                    <img src="resouces/carrito.svg" alt="Carrito" height="20" class="img-fluid" />
+
+            <!-- Botón carrito -->
+            <div class="col-1">
+                <div class="rounded-circle border">
+                    <img class="w-100 h-100" src="resouces/carrito.svg" alt="Carrito" class="img-fluid" />
                 </div>
             </div>
+
         </div>
 
+        <!-- Menú lateral -->
         <div class="collapse" id="collapseExample">
             <div class="card card-body position-fixed" style="top: 56px; left: 10px; z-index: 1050; width: 70px;">
                 <button class="btn d-flex align-items-center justify-content-center"
