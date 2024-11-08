@@ -2,17 +2,42 @@
     .f-size-14{
         font-size: 14px;
     }
+    .leftmenu-responsive{
+        width: 16px;
+        height: 16px;
+    }
+    .rightmenu-responsive{
+        width: 22px;
+        margin-right: 7px;
+    }
 }
 
 @media (min-width: 768px) { 
     .f-size-14{
         font-size: 20px;
     }
+    .leftmenu-responsive{
+        width: 20px;
+        height: 20px;
+    }
+    .rightmenu-responsive{
+        width: 26px;
+        margin-right: 12px;
+    }
 }
 
 @media (min-width: 992px) { 
     .f-size-14{
         font-size: 24px;
+    }
+    .leftmenu-responsive{
+        width: 26px;
+        height: 26px;
+        margin-top: 5px;
+    }
+    .rightmenu-responsive{
+        width: 35px;
+        margin-right: 17px;
     }
 }
 
@@ -41,10 +66,6 @@
 .title{
     font-size: 20px;
     margin: 0.5em;
-}
-
-.mr-10{
-    margin-right: 7px;
 }
 
 footer{
