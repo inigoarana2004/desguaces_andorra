@@ -1,3 +1,26 @@
+@media (min-width: 0px){
+    .f-size-14{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .f-size-14{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .f-size-14{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1200px) { 
+
+
+}
+
 .color-blue{
     color: #3a3cc2;
 }
@@ -23,10 +46,6 @@
 .title{
     font-size: 20px;
     margin: 0.5em;
-}
-
-.f-size-14{
-    font-size: 14px;
 }
 
 .mr-10{
