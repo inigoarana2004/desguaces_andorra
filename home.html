@@ -13,38 +13,48 @@
 
 <body>
     <div class="container-fluid">
-
+        
         <!-- Header -->
-        <div class="row d-flex align-items-center bg-light" id="header">
-
-            <!-- Botón de menú -->
-            <div class="col-4 col-md-3 mt-2 mb-2">
-                <a class="btn" style="background-color: #b8bcbf; color: #fff;" data-bs-toggle="collapse"
-                    href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-
-                    <svg class="mb-1 leftmenu-responsive bi bi-border-width" xmlns="http://www.w3.org/2000/svg"
-                        fill="currentColor" viewBox="0 0 16 16">
-                        <path
-                            d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5" />
-                    </svg>
-                </a>
+        <div class="position-fixed w-100">
+            <div class="row d-flex align-items-center bg-light" id="header">
+    
+                <!-- Botón de menú -->
+                <div class="col-4 col-md-3 mt-2 mb-2">
+                    <a class="btn" style="background-color: #b8bcbf; color: #fff;" data-bs-toggle="collapse"
+                        href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    
+                        <svg class="mb-1 leftmenu-responsive bi bi-border-width" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                            <path
+                                d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </a>
+                </div>
+    
+                <!-- Título -->
+                <div class="col-4 col-md-6 d-flex align-items-center justify-content-center color-blue text-center mt-2">
+                    <h1 class="f-size-14">DESGUACES ANDORRA</h1>
+                </div>
+    
+                <!-- Botón cuenta y carrito -->
+                <div class="col-4 col-md-3 p-2 px-4">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <a href=""><img class="rounded-circle border rightmenu-responsive" src="resouces/perfil.svg"
+                                alt="Icono perfil" class="img-fluid" /></a>
+                        <a href=""><img class="rounded-circle border rightmenu-responsive" src="resouces/carrito.svg"
+                                alt="Carrito" class="img-fluid" /></a>
+                    </div>
+                </div>
+    
             </div>
 
-            <!-- Título -->
-            <div class="col-4 col-md-6 d-flex align-items-center justify-content-center color-blue text-center mt-2">
-                <h1 class="f-size-14">DESGUACES ANDORRA</h1>
-            </div>
-
-            <!-- Botón cuenta y carrito -->
-            <div class="col-4 col-md-3 p-2">
-                <div class="d-flex justify-content-end align-items-center">
-                    <a href=""><img class="rounded-circle border rightmenu-responsive" src="resouces/perfil.svg"
-                            alt="Icono perfil" class="img-fluid" /></a>
-                    <a href=""><img class="rounded-circle border rightmenu-responsive" src="resouces/carrito.svg"
-                            alt="Carrito" class="img-fluid" /></a>
+            <!-- Navegador (Search) -->
+            <div class="row bg-white">
+                <div class="d-flex justify-content-start align-items-center border-bottom-gray h-6">
+                    <button class="btn"><img src="./resouces/lupa.svg" alt=""></button>
+                    <input class="border-none col-10 justify-content-center" type="text" placeholder="Buscar">
                 </div>
             </div>
-
+    
         </div>
 
         <!-- Menú lateral -->
@@ -83,16 +93,8 @@
             </div>
         </div>
 
-        <!-- Navegador (Search) -->
-        <div class="row">
-            <div class="d-flex justify-content-start align-items-center border-bottom-gray h-6">
-                <button class="btn"><img src="./resouces/lupa.svg" alt=""></button>
-                <input class="border-none col-10 justify-content-center" type="text" placeholder="Buscar">
-            </div>
-        </div>
-
         <!-- Artículo quienes somos -->
-        <div class="row mt-1">
+        <div class="row pt-20">
             <article class="justify-content-center">
                 <a name="who">
                     <h1 class="color-blue text-center title my-4">¿Quiénes somos?</h1>
