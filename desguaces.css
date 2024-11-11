@@ -10,6 +10,10 @@
         width: 22px;
         margin-right: 7px;
     }
+    .dropdown-container{
+        margin-top: 50px;
+        left: 4px;
+    }
 }
 
 @media (min-width: 768px) { 
@@ -23,6 +27,10 @@
     .rightmenu-responsive{
         width: 26px;
         margin-right: 15px;
+    }
+    .dropdown-container{
+        margin-top: 55px;
+        left: 5px;
     }
 }
 
@@ -38,6 +46,10 @@
     .rightmenu-responsive{
         width: 35px;
         margin-right: 20px;
+    }
+    .dropdown-container{
+        margin-top: 65px;
+        left: 8px;
     }
 }
 
