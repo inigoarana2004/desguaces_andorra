@@ -3,6 +3,10 @@
         font-size: 14px;
     }
 
+    .f-size-18 {
+        font-size: 18px;
+    }
+
     .leftmenu-responsive {
         width: 16px;
         height: 16px;
@@ -11,7 +15,8 @@
         width: 22px;
         margin-right: 7px;
     }
-    .dropdown-container{
+
+    .dropdown-container {
         margin-top: 50px;
         left: 4px;
     }
@@ -30,6 +35,10 @@
         font-size: 20px;
     }
 
+    .f-size-18 {
+        font-size: 22px;
+    }
+
     .leftmenu-responsive {
         width: 20px;
         height: 20px;
@@ -39,7 +48,8 @@
         width: 26px;
         margin-right: 15px;
     }
-    .dropdown-container{
+
+    .dropdown-container {
         margin-top: 55px;
         left: 4px;
     }
@@ -58,6 +68,10 @@
         font-size: 24px;
     }
 
+    .f-size-18 {
+        font-size: 28px;
+    }
+
     .leftmenu-responsive {
         width: 26px;
         height: 26px;
@@ -68,7 +82,8 @@
         width: 35px;
         margin-right: 20px;
     }
-    .dropdown-container{
+
+    .dropdown-container {
         margin-top: 65px;
         left: 4px;
     }
