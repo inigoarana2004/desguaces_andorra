@@ -7,7 +7,6 @@
         width: 16px;
         height: 16px;
     }
-
     .rightmenu-responsive {
         width: 22px;
         margin-right: 7px;
@@ -15,6 +14,14 @@
     .dropdown-container{
         margin-top: 50px;
         left: 4px;
+    }
+    .button-menu{
+        width: 35px;
+        height: 35px;
+    }
+    .img-menu{
+        width: 16px;
+        height: 16px;
     }
 }
 
@@ -34,7 +41,15 @@
     }
     .dropdown-container{
         margin-top: 55px;
-        left: 5px;
+        left: 4px;
+    }
+    .button-menu{
+        width: 35px;
+        height: 35px;
+    }
+    .img-menu{
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -55,7 +70,15 @@
     }
     .dropdown-container{
         margin-top: 65px;
-        left: 8px;
+        left: 4px;
+    }
+    .button-menu{
+        width: 35px;
+        height: 45px;
+    }
+    .img-menu{
+        width: 26px;
+        height: 26px;
     }
 }
 
