@@ -1,12 +1,14 @@
-@media (min-width: 0px){
-    .f-size-14{
+@media (min-width: 0px) {
+    .f-size-14 {
         font-size: 14px;
     }
-    .leftmenu-responsive{
+
+    .leftmenu-responsive {
         width: 16px;
         height: 16px;
     }
-    .rightmenu-responsive{
+
+    .rightmenu-responsive {
         width: 22px;
         margin-right: 7px;
     }
@@ -16,15 +18,17 @@
     }
 }
 
-@media (min-width: 768px) { 
-    .f-size-14{
+@media (min-width: 768px) {
+    .f-size-14 {
         font-size: 20px;
     }
-    .leftmenu-responsive{
+
+    .leftmenu-responsive {
         width: 20px;
         height: 20px;
     }
-    .rightmenu-responsive{
+
+    .rightmenu-responsive {
         width: 26px;
         margin-right: 15px;
     }
@@ -34,16 +38,18 @@
     }
 }
 
-@media (min-width: 992px) { 
-    .f-size-14{
+@media (min-width: 992px) {
+    .f-size-14 {
         font-size: 24px;
     }
-    .leftmenu-responsive{
+
+    .leftmenu-responsive {
         width: 26px;
         height: 26px;
         margin-top: 5px;
     }
-    .rightmenu-responsive{
+
+    .rightmenu-responsive {
         width: 35px;
         margin-right: 20px;
     }
@@ -53,37 +59,86 @@
     }
 }
 
-.color-blue{
+.color-blue {
     color: #3a3cc2;
 }
 
-.border-none{
+.border-none {
     border: none;
 }
 
-.border-bottom-gray{
+.border-bottom-gray {
     border-bottom: 1px solid #dfe1e3;
 }
 
-.h-6{height: 6vh;}
+.h-6 {
+    height: 6vh;
+}
 
-.h-10{height: 10vh;}
+.h-10 {
+    height: 10vh;
+}
 
-.h-20{height: 20vh;}
+.h-20 {
+    height: 20vh;
+}
 
-.h-30{height: 30vh;}
+.h-30 {
+    height: 30vh;
+}
 
-.h-40{height: 40vh;}
+.h-40 {
+    height: 40vh;
+}
 
-.pt-20{
+.pt-20 {
     padding-top: 110px;
 }
 
-.title{
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+.title {
     font-size: 20px;
     margin: 0.5em;
 }
 
-footer{
+footer {
     padding-top: 2px;
+}
+
+h2#product-title {
+    font-size: 1em;
+}
+
+p#garantia {
+    color: green;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+p#pago-aplazado {
+    background-color: lightgreen;
+    font-size: 0.9em;
+}
+
+button#collapseBtn {
+    border: 1px solid black;
+    border-radius: .5em;
+    background-color: lightgray;
+    text-align: center;
 }
